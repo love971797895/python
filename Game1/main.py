@@ -1,5 +1,7 @@
 #!/usr/bin/python  
 # -*- coding: <utf-8> -*- 
-from Person import *
+def Main():
+	pass
 
-import os
+if __name__ == '__main__':
+	Main()
