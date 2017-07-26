@@ -19,8 +19,12 @@ try:
 		backurl = osurl + "\\content\\back.png" #背景图片的存放地址
 		obackground = pygame.image.load(backurl)
 
+		#人的信息
 		mplane = osurl + "\\content\\mplane.png" #要打的飞机的存放地址
 		omplane = pygame.image.load(mplane)
+		
+
+		#地方飞机的信息
 		
 		while True:
 			screen.blit(obackground,(0,0))
